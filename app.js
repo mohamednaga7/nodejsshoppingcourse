@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const path = require('path');
 const fs = require('fs');
 
@@ -131,7 +133,7 @@ app.use((error, req, res, next) => {
 mongoose
   .connect(MONGODB_URI)
   .then(result => {
-      app.listen(process.env.PORT || 3000);
+      app.listen(process.env.PORT || 3002);
   })
   .catch(err => {
     console.log(err);
