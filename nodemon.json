@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGO_CONNECTION_STRING": "mongodb+srv://mohamednaga7:Kv7FwUzcN9ufkbJk@shopping-nodejs-website-jdcf6.mongodb.net/shop?retryWrites=true",
+    "STRIPE_KEY" : "sk_test_EbpSCfUIuAXo8wwVziJkLHk5"
+  }
+}
